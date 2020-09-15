@@ -9,7 +9,7 @@ Person.prototype.talk = function() {
   return `I am ${this.name}`
 }
 const person1 = new Person('Xavier', 55)
-console.log(person1.talk())
+console.log(person1.talk()) // I am Xavier
 
 // OBJECT.CREATE()
 const elfFunctions = {
@@ -24,7 +24,7 @@ function createElf(name, weapon) {
   return newElf
 }
 const peter = createElf('Peter', 'stones')
-console.log(peter.attack())
+console.log(peter.attack()) // Peter attacks with stones
 
 // ES6 CLASS
 class User {
@@ -37,4 +37,4 @@ class User {
   }
 }
 const user1 = new User('Laura', 45)
-console.log(user1.talk())
+console.log(user1.talk()) // I am Laura
